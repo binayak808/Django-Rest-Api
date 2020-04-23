@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'profiles_project.wsgi.application'
+WSGI_APPLICATION = 'profiles_project.wsgi.application' 
 
 
 # Database
@@ -123,3 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'profile_api.UserProfile'
